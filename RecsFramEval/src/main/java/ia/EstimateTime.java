@@ -16,7 +16,7 @@ public class EstimateTime {
         if(r==0){
             r=1;
         }
-        System.out.println("Time for read is: "+r+" min");
+        //System.out.println("Time for read is: "+r+" min");
         long result=r*60*1000L;
         return result;
     }
