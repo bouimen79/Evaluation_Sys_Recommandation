@@ -1,0 +1,120 @@
+
+class algorithm.RecentlyClicked
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	5
+F1                  	0.8919102
+MAP                 	0.8777472
+NDCG                	0.9246226
+ClickThroughRate    	0.7626393
+
+class algorithm.RecentlyClicked
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	10
+F1                  	0.8981774
+MAP                 	0.8865803
+NDCG                	0.9213690
+ClickThroughRate    	0.7074862
+
+class algorithm.RecentlyClicked
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	15
+F1                  	0.9001350
+MAP                 	0.8892934
+NDCG                	0.9204914
+ClickThroughRate    	0.6926167
+
+class algorithm.RecentlyClicked
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	20
+F1                  	0.9006690
+MAP                 	0.8901599
+NDCG                	0.9201602
+ClickThroughRate    	0.6873804
+
+class algorithm.Random
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	5
+F1                  	0.0021561
+MAP                 	0.0015313
+NDCG                	0.0026225
+ClickThroughRate    	0.0050868
+
+class algorithm.Random
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	10
+F1                  	0.0025039
+MAP                 	0.0015939
+NDCG                	0.0027172
+ClickThroughRate    	0.0077463
+
+class algorithm.Random
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	15
+F1                  	0.0027076
+MAP                 	0.0016237
+NDCG                	0.0028420
+ClickThroughRate    	0.0093085
+
+class algorithm.FastSessionCoOccurrence
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	5
+F1                  	0.8028423
+MAP                 	0.7870453
+NDCG                	0.8309908
+ClickThroughRate    	0.7030903
+
+class algorithm.FastSessionCoOccurrence
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	10
+F1                  	0.8020716
+MAP                 	0.7914056
+NDCG                	0.8223929
+ClickThroughRate    	0.6219272
+
+class algorithm.FastSessionCoOccurrence
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	15
+F1                  	0.8022014
+MAP                 	0.7926818
+NDCG                	0.8204647
+ClickThroughRate    	0.5972348
+
+class algorithm.FastSessionCoOccurrence
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	20
+F1                  	0.8022600
+MAP                 	0.7931183
+NDCG                	0.8198970
+ClickThroughRate    	0.5886347
+
+class algorithm.RecentlyPopular
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	5
+F1                  	0.1443830
+MAP                 	0.1244525
+NDCG                	0.1611988
+ClickThroughRate    	0.2413337
+
+class algorithm.RecentlyPopular
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	15
+F1                  	0.1487066
+MAP                 	0.1322000
+NDCG                	0.1551971
+ClickThroughRate    	0.2782049
+
+class algorithm.MostPopular
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	10
+F1                  	0.0433279
+MAP                 	0.0358296
+NDCG                	0.0456856
+ClickThroughRate    	0.0840041
+
+class algorithm.MostPopular
+EvaluationWindowSize:	IAmin
+recSizeLimits:      	20
+F1                  	0.0439503
+MAP                 	0.0364737
+NDCG                	0.0452165
+ClickThroughRate    	0.0933094

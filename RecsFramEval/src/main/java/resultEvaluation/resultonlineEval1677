@@ -1,0 +1,23 @@
+
+class algorithm.RecentlyClicked
+EvaluationWindowSize:	5min
+recSizeLimits:      	5
+F1                  	0.8125252
+MAP                 	0.7818937
+NDCG                	0.8790836
+ClickThroughRate    	0.7158267
+
+class algorithm.Random
+EvaluationWindowSize:	5min
+recSizeLimits:      	5
+F1                  	0.0004941
+MAP                 	0.0002513
+NDCG                	0.0012217
+ClickThroughRate    	0.0028624
+
+class algorithm.MostPopular
+EvaluationWindowSize:	10min
+recSizeLimits:      	5
+F1                  	0.0338215
+MAP                 	0.0202237
+NDCG                	0.0568685

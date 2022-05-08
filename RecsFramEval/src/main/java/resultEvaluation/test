@@ -1,0 +1,14 @@
+
+class algorithm.RecentlyClicked
+EvaluationWindowSize:	null
+recSizeLimits:      	null
+F1                  	0.0030810
+MAP                 	0.0017699
+NDCG                	0.0036324
+
+class algorithm.RecentlyClicked
+EvaluationWindowSize:	null
+recSizeLimits:      	10
+F1                  	0.0030810
+MAP                 	0.0017699
+NDCG                	0.0036324
