@@ -20,5 +20,25 @@ public class EstimateReadingTime {
         long result=r*60*1000L;
         return result;
     }
+    public static int recListSize(int min){
+        int recsLimit;
+        if(min<=5){
+            recsLimit=5;
+            return recsLimit;
+        }else{
+            if(min<=10){
+                recsLimit=10;
+                return recsLimit;
+            }else{
+                if(min<=15){
+                    recsLimit=15;
+                    return recsLimit;
+                }else{
+                    recsLimit=20;
+                    return recsLimit;
+                }
+            }
+        }
+    }
 }
 
