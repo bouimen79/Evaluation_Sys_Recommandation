@@ -133,7 +133,7 @@ public class Sender {
             Request request;
             LongOpenHashSet userTransactions;
             DataSplittingStrategy.onLineTemporalSplit(trainingWindow);
-
+            int min=0;
             for (int i = 0; i < trainingWindow.size(); i++) {
                 progressPercentage(i + 1, trainingWindow.size());
                 itemOrEvent = trainingWindow.get(i);
@@ -149,7 +149,10 @@ public class Sender {
                     //getTextEvent(currentTransaction,trainingWindow);
                     algo.handleEventNotification(currentTransaction);
                     //System.out.print(" Id_item : "+currentTransaction.getId_item());
+
                     evaluationWindowSize=EstimateReadingTime.estimateTestWindowSize(fullText.get(currentTransaction.getId_item()));
+                    min= (int) ((evaluationWindowSize/ 1000) / 60);
+                    recsLimit=EstimateReadingTime.recListSize(min);
                     userTransactions = Evaluator.getTestWindowForUser(currentTransaction, trainingWindow, i, evaluationWindowSize);
                     // check if there is a recommendation request
                     // send request only if there is valid items in the next evaluation window
